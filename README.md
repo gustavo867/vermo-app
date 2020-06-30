@@ -73,8 +73,8 @@ After your pull request is merged, you can delete your branch
  <img height="600" src="./src/assets/github/screenshot_4.jpg"></img>
 
 ### Register 
- <img height="600" src="./src/assets/github/screenshot_5.jpg"></img>
- <img height="600" src="./src/assets/github/screenshot_6.jpg"></img>
+ <img height="600" src="./src/assets/github/Screenshot_5.jpg"></img>
+ <img height="600" src="./src/assets/github/Screenshot_6.jpg"></img>
  
 ## 📝 License
 
