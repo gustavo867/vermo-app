@@ -2,7 +2,7 @@ import React from 'react';
 import { Ionicons } from '@expo/vector-icons';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
 
-import Mail from '../assets/MailPlus1.png';
+import Mail from '../assets/images/MailPlus1.png';
 
 export default function CheckYourEmail({ navigation }) {
   return (

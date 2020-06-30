@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Text, View, Image, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
+import { Text, View, Image, TouchableOpacity, ScrollView, StyleSheet, Link } from 'react-native';
 
-import logo from '../assets/Group.png';
-import facebook from '../assets/facebook.png';
-import google from '../assets/google.png';
-import InputTextField from '../components/inputTextField';
+import logo from '../assets/images/Group.png';
+import facebook from '../assets/images/facebook.png';
+import google from '../assets/images/google.png';
+import InputTextField from '../assets/components/inputTextField';
 
 export default function Login({ navigation }) {
   return (
@@ -32,9 +32,8 @@ export default function Login({ navigation }) {
             </View>
           </TouchableOpacity>
 
-          </View>
-          <View>
-
+        </View>
+        <View>
           <Text 
           style={[
              styles.text, { 
@@ -52,18 +51,23 @@ export default function Login({ navigation }) {
           isSecure={true}
           ></InputTextField>
 
-          <Text onPress={() => navigation.navigate('ForgotPassword')} style={[ styles.text, styles.link, { textAlign: 'right' } ]}>Forgot Password?</Text>
+          <Text 
+          onPress={() => navigation.navigate('ForgotPassword')} 
+          style={[ styles.text, styles.link, { textAlign: 'right' } ]
+          }>Forgot Password?</Text>
 
           <TouchableOpacity style={styles.submitContainer}>
-            <Text style={[ styles.text, { color: '#fff', fontWeight: '600', fontSize: 16 } ]}>Login</Text>
+            <Text 
+            style={[ styles.text, { color: '#fff', fontWeight: '600', fontSize: 16 } ]}
+            >Login</Text>
           </TouchableOpacity>   
           
 
-          <Text style={[
+          <Text 
+          style={[
             styles.text, { fontSize: 14, color: '#ABB4BD', textAlign: 'center', marginTop: 24, }
-          ]}>Don't have an account? <Text style={ styles.link }>Register Now</Text></Text>
+          ]}>Don't have an account? <Text onPress={() => navigation.navigate('Register')} style={ styles.link }>Register Now</Text></Text>
         </View>
-
       </View>
     </ScrollView>   
   );

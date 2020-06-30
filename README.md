@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Vermo App</h1>
-<img src="./src/github/screenshot_1.jpg" height="800"></img>
+<img src="./src/assets/github/screenshot_1.jpg" height="800"></img>
 </div>
 
 ## 🚀 Technologies
@@ -8,6 +8,9 @@ Technologies that I used to develop this mobile client
 - React Native
 - Expo icons
 - Expo
+
+## 🔖 Layout
+### Apllication Layout: <a href="https://dribbble.com/shots/5832646-Login-Screens-UI-Kit-Freebie">Dribble</a>
 
 ## 💻 Getting Started
 
@@ -65,9 +68,13 @@ After your pull request is merged, you can delete your branch
 
 ## Some images about the project 
 ### Forgot Password 
- <img height="600" src="./src/github/screenshot_2.jpg"></img>
- <img height="600" src="./src/github/screenshot_3.jpg"></img>
- <img height="600" src="./src/github/screenshot_4.jpg"></img>
+ <img height="600" src="./src/assets/github/screenshot_2.jpg"></img>
+ <img height="600" src="./src/assets/github/screenshot_3.jpg"></img>
+ <img height="600" src="./src/assets/github/screenshot_4.jpg"></img>
+
+### Register 
+ <img height="600" src="./src/assets/github/screenshot_5.jpg"></img>
+ <img height="600" src="./src/assets/github/screenshot_6.jpg"></img>
  
 ## 📝 License
 
